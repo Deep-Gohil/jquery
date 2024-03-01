@@ -7,5 +7,86 @@
 #navigation
 {
     height: 70px;
+    background-color: rgb(122, 114, 114);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo > img{
+ color: white;
+}
+
+.links
+{
+    height: 60px;
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links > a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.links > a:hover{
     background-color: black;
+    color: rgb(255, 255, 255);
+}
+.buy-courses
+{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    i{
+        color: black;
+        font-size: 23px;
+        
+    }
+    i:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+#toggle
+{
+    display: none;
+}
+
+/* @media (max-width: 1032px){
+    #toggle
+    {
+        display: block;
+    }
+    .buy-courses > a > i {
+        display: none;
+    }
+}
+
+
+@media (min-width: 933px) and (max-width: 1032px){
+  
+} */
+
+@media (max-width: 933px)
+{
+    .links{
+        display: none;
+    }
+    .buy-courses > a > i {
+        display: none;
+    }
+
+    #toggle
+    {
+        display: block;
+    }
+    
 }
