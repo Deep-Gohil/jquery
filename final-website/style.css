@@ -60,21 +60,6 @@
     display: none;
 }
 
-/* @media (max-width: 1032px){
-    #toggle
-    {
-        display: block;
-    }
-    .buy-courses > a > i {
-        display: none;
-    }
-}
-
-
-@media (min-width: 933px) and (max-width: 1032px){
-  
-} */
-
 @media (max-width: 933px)
 {
     .links{
@@ -88,5 +73,32 @@
     {
         display: block;
     }
+    .slider > img{
+        height: 933px;
+        width: 933px
+    };
     
+}
+
+#toggle:hover
+{
+    .links
+    {
+        display: block;
+    }
+}
+
+.slider
+{
+    /* background-image: url("./slider-1.jpg"); */
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.slider > img{
+    height: 100%;
+    width: 100%;
 }
