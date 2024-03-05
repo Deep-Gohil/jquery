@@ -1,4 +1,4 @@
-#Darkmode {
+#theme {
   background: none;
   border: none;
   font-size: 16px;
@@ -7,9 +7,6 @@
   right: 10px;
   cursor: pointer;
 }
-
-
-
 body.dark-mode .taskadding {
   background-color: #47d247;
 }
