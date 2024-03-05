@@ -61,6 +61,10 @@
 @media (max-width: 933px) {
   .links {
     display: none;
+    flex-direction: column;
+    z-index: 1000;
+    position: absolute;
+    
   }
 
   .buy-courses>a>i {

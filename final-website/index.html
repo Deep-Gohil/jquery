@@ -21,18 +21,17 @@
     </div>
     <div class="links">
       <a href="#">Home</a>
-      <a href="#">Courses</a>
-      <a href="#">About-Us</a>
-      <a href="#">Contact-Us</a>
-      <a href="#">Faculty</a>
-      <a href="#">Books</a>
-      <a href="#">J2L Team</a>
+      <a href="https://jump2learn.com/Courses" target="_blank">Courses</a>
+      <a href="https://jump2learn.com/AboutUs "target="_blank">About-Us</a>
+      <a href="https://jump2learn.com/ContactUs" target="_blank">Contact-Us</a>
+      <a href="https://jump2learn.com/Faculties" target="_blank">Faculty</a>
+      <a href="https://jump2learn.com/Books" target="_blank">Books</a>
+      <a href="https://jump2learn.com/Team" target="_blank">J2L Team</a>
     </div>
     <div class="buy-courses">
-      <a href="#"> <i class="fa-solid fa-cart-shopping"></i></a>
-      <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="https://jump2learn.com/Home" target="_blank"> <i class="fa-solid fa-cart-shopping"></i></a>
+      <a href="https://jump2learn.com/Home" target="_blank"> <i class="fa-solid fa-magnifying-glass"></i></a>
       <i id="toggle" class="fa-solid fa-bars"></i>
-
     </div>
   </div>
 </body>
@@ -284,8 +283,14 @@
                             
 //                             };
 
-
-
 </script>
 
 </html>
+-->
+<script>
+  $(document).ready(function(){
+    $("#toggle").click(function(){
+      $(".links").slideToggle();
+    });
+  });
+</script>
