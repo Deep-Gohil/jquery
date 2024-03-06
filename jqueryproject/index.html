@@ -24,9 +24,7 @@
     <br>
     <ul id="list">
     </ul>
-
 </body>
-
 <script>
 
     $(".taskadding").click(function () {
@@ -40,8 +38,6 @@
             $("#task").val("");
         }
     });
-
-
     $("#list").on("click", ".task", function () {
 
         $(this).toggleClass("done");
@@ -54,25 +50,19 @@
         $(this).parent().remove();
 
     });
-
-
     $("#theme").click(function () {
 
         $("body").toggleClass("dark-mode");
 
     });
-
-
     $("#list").on("click", ".task", function () {
 
         $(this).vibrate("done");
 
     });
-
     $('.task').on('click', function (e) {
 
         navigator.vibrate(250);
-
     });
 </script>
 
