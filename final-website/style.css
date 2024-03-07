@@ -5,10 +5,13 @@
 
 #navigation {
   height: 70px;
-  background-color: ec5252;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: fixed;
+  z-index: 1000;
+  width: 100% ; 
 }
 
 .logo>img {
@@ -479,3 +482,66 @@
   transform: translateY(0);
   }
   } */
+
+  .subjects-discover
+  {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+  }
+.main-countainer
+{
+  margin-top: 4%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-inside
+{
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes
+{
+  height: 440px;
+  width: 350px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+.image-main
+{
+  height: 283px;
+}
+
+.title-tag
+{
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.semm
+{
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.icon-sem
+{
+  margin-top: 4%;
+  display: flex;
+  width: 90px;
+  justify-content: space-between;
+}
